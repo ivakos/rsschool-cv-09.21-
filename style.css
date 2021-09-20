@@ -1,0 +1,90 @@
+html{
+    box-sizing: border-box;
+}
+*, *::after, *::before{
+    box-sizing: inherit;
+}
+.container{
+    display: flex;
+    max-width: 960px;
+    margin: auto;
+    background-color: rgba(3, 32, 9, 0.884);
+    margin: 20px auto;
+}
+.profile{
+    max-width: 350px;
+    background-color: rgba(3, 31, 3, 0.151);
+    color: rgb(252, 252, 252);
+}
+.profile-photo{
+    height: 300px;
+    background-image: url(/avatar.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.profile-info{
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.profile-text{
+    line-height: 24px;
+    font-size: 13px;
+    border-bottom: rgb(241, 241, 241) 2px solid;
+    padding-bottom: 17px;
+}
+.heading{
+    margin: 0;
+    padding-bottom: 17px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.heading-light{
+    color:rgb(243, 247, 246);
+    border-bottom: rgb(241, 241, 241) 2px solid;
+}
+
+.contacts-title{
+    color: #fff;
+}
+.contacts-item_text{
+    color: rgb(245, 241, 238);
+    text-decoration: none;
+}
+.contacts-item{
+    list-style-type: none;
+}
+.contacts-list{
+    padding-left: 0;
+    padding-bottom: 17px;
+    border-bottom: rgb(241, 241, 241) 2px solid;
+}
+.languages{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+
+}
+.language{
+    width: 90px;
+    height: 90px;
+    border: 5px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    
+}
+.language-text{
+    text-transform: uppercase;
+    font-size: 11px;
+}
+.language-per{
+    font-size: 15px;
+    font-weight: 600;
+}
