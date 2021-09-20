@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+        <div class="profile">
+            <div class="profile-photo"></div>
+                <div class="profile-info">
+                    <h2 class="heading heading-light">
+                        Profile
+                    </h2>
+                    <p class="profile-text">
+                        Hello! My name Ivan Kasenka. I'm a student rsschool. And I wanna be a great developer.
+                    </p>
+                    <div class="contacts">
+                        <ul class="contacts-list">
+                            <li class="contacts-item">
+                              <h3 class="contacts-item_title">Telegram</h3>
+                              <a href="#" class="contacts-item_text">@kosenya</a>
+                            </li>
+                            <li class="contacts-item">
+                              <h3 class="contacts-item_title">Email</h3>
+                              <a href="mailto:ivan.kasenka@gmail.com" class="contacts-item_text">ivan.kasenka@gmail.com</a>
+                            </li>
+                            <li class="contacts-item">
+                              <h3 class="contacts-item_title">Discord</h3>
+                              <a href="#" class="contacts-item_text">iva#1718</a>
+                            </li>
+                          </ul>
+                    </div>
+
+                    <h2 class="heading heading-light">
+                        languages
+                    </h2>
+
+                    <div class="languages">
+                        <div class="language">
+                            <span class="language-text">Russia</span>
+                            <strong class="languages-per">99%</strong>
+                        </div>
+
+                        <div class="language">
+                            <span class="language-text">English</span>
+                            <strong class="languages-per">59%</strong>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        
+
+        <div class="resume">
+            <div class="resume-wrap">
+                <div class="logo">
+                    <div class="logo-lines logo-lines_left">
+                        <span class="logo-line"></span>
+                        <span class="logo-line"></span>
+                        <span class="logo-line"></span>
+                      </div>
+                      <div class="logo-img">
+                        I / K
+                      </div>
+                      <div class="logo-lines logo-lines_right">
+                        <span class="logo-line"></span>
+                        <span class="logo-line"></span>
+                        <span class="logo-line"></span>
+                      </div>
+                </div>
+                <div class="about">
+                    <h1 class="name">Ivan Kasenka</h1>
+                    <span class="position">Student rsschool</span>
+                    <address>
+                        Belarus, Brest
+                    </address>
+                </div>
+                <div class="experience">
+                    <h2 class="heading heading-dark">
+                        Experience
+                    </h2>
+                    <ul class="list">
+                        <li class="list-item">
+                          <article>
+                            <h4 class="list-item_title">Museum</h4>
+                            <p class="list-item_text">Rsschool. Stage0</p>
+                            <a class="list-item_link" href="https://rolling-scopes-school.github.io/ivakos-JSFEPRESCHOOL/museum/" target="blank">
+                              <img class="list-item_img" src="museum.jpg" alt="" height="100">
+                            </a>
+                          </article>
+                        </li>
+                    </ul>    
+                </div>
+                <section>
+                    <h3 class="heading heading-dark">Personal qualities:</h3>
+                <ul>
+                    <li>good communication skills;</li>
+                    <li>good analytical and problem solving skills;</li>
+                    <li>attentiveness;</li>
+                    <li>mathematical thinking;</li>
+                    <li>responsibility;</li>
+                    <li>willingness to learn new useful skills.</li>
+                </ul>
+                </section>
+                <section>
+                    <h3 class="heading heading-dark">Some technical skills:</h3>
+                <ul>
+                    <li>Knowledge of HTML5, CSS3, JavaScript;</li>
+                    <li>Experience in cross-browser&adaptive website coding;</li>
+                    <li>Experience in working with SASS, LESS;</li>
+                    <li>Web site development experience using Visual Studio Code.  </li>
+                </ul>
+                </section>
+                <h5 class="heading heading-dark"> And a piece of code.</h5>
+    <pre><code>
+(function($){
+    $(function() {
+      $('.menu__icon').on('click', function() {
+        $(this).closest('nav')
+          .toggleClass('menu_state_open');
+      });
+      
+      $('.menu__links-item').on('click', function() {
+        // do something
+        $(this).closest('nav')
+          .removeClass('menu_state_open');
+      });
+    });
+  })(jQuery);
+    </code></pre>   
+    
+    <h3 class="heading heading-dark">My Education:</h3>
+        <pre>
+                Brest State Technical University,
+                Faculty of Electronic Information Systems,
+                Artificial Intelligence.  
+        </pre>
+</div>
+        
+</div>
+        
+</div>
+<footer>
+    <div class="container">
+      <div class="footer-contacts">
+        <a class="footer-contacts_link" href="https://github.com/ivakos" target="blank">My github</a>
+        <h6 class="footer-contacts_text">2021</h6>
+        <a href="https://rs.school/js/" target="blank">
+          <img class="footer-contacts_img" src="rs_school.svg" alt="rs_logo">
+        </a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
